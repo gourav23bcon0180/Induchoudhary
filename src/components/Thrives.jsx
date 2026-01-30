@@ -27,7 +27,7 @@ function Thrives() {
       <div className="container">
         <div className="thrives-layout">
           <div className="thrives-image">
-            <img src="/pics/IMG_9355.JPG" alt="Who Thrives Inside DWA" />
+            <img src="/pics/bottom.jpeg" alt="Who Thrives Inside DWA" />
           </div>
           <div className="thrives-content">
             <p className="thrives-eyebrow">Digital marketing transforms lives, but it's not for everyone.</p>
