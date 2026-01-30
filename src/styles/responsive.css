@@ -1,0 +1,249 @@
+/* ========================================
+   RESPONSIVE STYLES
+   ======================================== */
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 42px;
+    }
+    
+    .courses-grid-new,
+    .brand-new-grid,
+    .pricing-grid,
+    .faq-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .different-layout,
+    .thrives-layout,
+    .bonus-section-new {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .different-image {
+        order: -1;
+    }
+    
+    .pricing-card-new.featured {
+        transform: none;
+    }
+    
+    .pricing-card-new.featured:hover {
+        transform: translateY(-5px);
+    }
+    
+    .hero-title .highlight {
+        font-size: 28px;
+    }
+    
+    .section-title {
+        font-size: 36px;
+    }
+    
+    .courses-grid,
+    .different-grid,
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .who-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: flex;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: var(--background);
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+        transform: translateX(-100%);
+        transition: var(--transition);
+        border-bottom: 1px solid var(--border);
+    }
+    
+    .nav-menu.active {
+        transform: translateX(0);
+    }
+    
+    .nav-cta {
+        margin-left: 0;
+    }
+    
+    .courses-grid-new,
+    .pricing-grid,
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .pricing-main-title,
+    .faq-title,
+    .thrives-title {
+        font-size: 28px;
+    }
+    
+    .include-items {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* Brand New Section Mobile */
+    .brand-new-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .brand-new-header h3 {
+        font-size: 24px;
+    }
+    
+    .brand-new-features {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .feature-column {
+        text-align: center;
+    }
+    
+    .feature-column p {
+        justify-content: center;
+    }
+    
+    /* Bonus Section Mobile */
+    .bonus-large-content {
+        grid-template-columns: 1fr;
+        padding: 30px;
+        gap: 30px;
+    }
+    
+    .bonus-large-text h3 {
+        font-size: 28px;
+    }
+    
+    /* Testimonial Arrows Mobile */
+    .testimonial-arrow {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 14px;
+    }
+    
+    .testimonial-slide {
+        flex: 0 0 300px;
+        min-width: 300px;
+        height: 230px;
+    }
+    
+    .hero {
+        padding: 120px 0 60px;
+    }
+    
+    .hero-title {
+        font-size: 32px;
+    }
+    
+    .hero-title .highlight {
+        font-size: 22px;
+    }
+    
+    .hero-subtitle {
+        font-size: 16px;
+    }
+    
+    .hero-stats {
+        gap: 25px;
+    }
+    
+    .stat-number {
+        font-size: 28px;
+    }
+    
+    .stat-divider {
+        display: none;
+    }
+    
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .courses-grid,
+    .different-grid,
+    .bonuses-grid,
+    .thinking-grid,
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .who-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .story-highlight-box {
+        padding: 30px 25px;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .final-cta h2 {
+        font-size: 32px;
+    }
+    
+    .photo-slide {
+        width: 250px;
+        height: 187px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 16px;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    .hero-cta-group {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .cta-button-primary,
+    .cta-button-secondary {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .footer-links {
+        grid-template-columns: 1fr;
+    }
+    
+    .pricing-header,
+    .pricing-features {
+        padding: 30px 25px;
+    }
+    
+    .pricing-cta {
+        margin: 0 25px 25px;
+    }
+    
+    .price .amount {
+        font-size: 42px;
+    }
+}
