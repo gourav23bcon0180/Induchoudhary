@@ -56,7 +56,7 @@ function Different() {
           </div>
           
           <div className="different-image">
-            <img src="/pics/last.jpeg" alt="More than a course" style={{ width: '60%', height: 'auto' }} />
+            <img src="/pics/last.jpeg" alt="More than a course" style={{ width: '100%', height: 'auto', maxHeight: '700px', objectFit: 'cover', borderRadius: '12px' }} />
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ function Story() {
         <div className="story-content">
           <div className="story-grid">
             <div className="story-image">
-              <img src="/pics/top.jpeg" alt="Indu Choudhary" style={{ width: '120%', height: 'auto' }} />
+              <img src="/pics/top.jpeg" alt="Indu Choudhary" style={{ width: '120%', height: '140%' }} />
             </div>
 
             <div className="story-right">
