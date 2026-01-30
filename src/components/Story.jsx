@@ -7,9 +7,9 @@ function Story() {
         </div>
         
         <div className="story-content">
-          <div className="story-grid">
-            <div className="story-image">
-              <img src="/pics/top.jpeg" alt="Indu Choudhary" style={{ width: '100%', height: 'auto', maxHeight: '650px', objectFit: 'cover', borderRadius: '12px' }} />
+          <div className="story-grid" style={{ alignItems: 'stretch' }}>
+            <div className="story-image" style={{ display: 'flex' }}>
+              <img src="/pics/top.jpeg" alt="Indu Choudhary" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} />
             </div>
 
             <div className="story-right">
